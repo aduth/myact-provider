@@ -26,6 +26,10 @@ describe( 'Provider', function() {
         expect( provider.options ).to.be.an( 'object' );
     });
 
+    it( 'should include an options object even if invalid options sent', function() {
+        expect( provider.options ).to.be.an( 'object' );
+    });
+
     it( 'should include na options object which matches options sent', function() {
         var options = { ok: true },
             providerWithOptions = new Provider( options );
