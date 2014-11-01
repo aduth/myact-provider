@@ -1,0 +1,12 @@
+{
+  "name": "myact-provider",
+  "version": "0.1.0",
+  "description": "A base from which Myact providers can be built upon",
+  "main": "index.js",
+  "author": {
+    "name": "Andrew Duthie",
+    "email": "andrew@andrewduthie.com",
+    "url": "http://www.andrewduthie.com/"
+  },
+  "license": "MIT"
+}
